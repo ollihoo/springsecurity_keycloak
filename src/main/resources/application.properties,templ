@@ -1,0 +1,8 @@
+spring.application.name=spring_keycloak
+
+# do not add any slash behind the issuer!!!
+spring.security.oauth2.client.provider.myRealm.issuer-uri=http://localhost:8089/realms/myRealm
+spring.security.oauth2.client.registration.myRealm.authorization-grant-type=authorization_code
+spring.security.oauth2.client.registration.myRealm.client-id=myAppid
+spring.security.oauth2.client.registration.myRealm.client-secret=mysecret
+spring.security.oauth2.client.registration.myRealm.scope=openid
